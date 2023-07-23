@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #icon {
+    max-width: 30px;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 .5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: yellow;
+}
+
+img#photo{
+    max-width: 100px;
+    height: auto;
+}
+
+img#icon{
+    max-width: 40px;
+    height: auto;   
+}
+
+div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.wrapper section {
+    border: 1px solid yellowgreen;
+    width: 85%;
+    min-height: 300px;
+    font-size: 15pt;
+    max-width: 500px;
+}
+
+div.wrapper section div.content {
+    padding-left: 10px;
+    padding-top: 60px;
+}
+
+div.wrapper section#about {
+    background-color: blueviolet;
+}
+
+div.wrapper section#experience {
+    background-color: #CC32BB;
+}
+
+div.wrapper section#education {
+    background-color: #CC32BB;
+}
+
+div.wrapper section#skills {
+    background-color: #77E0AA;
+}
+
+div.wrapper section#interests {
+    background-color: #45E0BB; 
+}
+
+div.wrapper section#awards {
+    
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple; 
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    position: fixed;
+    background-color: green;
+    bottom: 0;
+    padding: .5em;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    
+}
